@@ -1,0 +1,205 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link href="css/main.css" rel="stylesheet" />
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <nav class="nav">
+          <div class="container">
+              <div class="logo">
+                  <img style="" class="logom" src="images/logo.png">
+              </div>
+              <div id="mainListDiv" class="main_list">
+                  <ul class="navlinks">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li class="pl-3 nav-item">
+                          <button type="button" class="pl-5 pr-5 btn btn-primary hoverable nevtext" style="border-radius: 12px; font-weight: 1900; font-size:16px; font-family: 'Anton', sans-serif; " >Log In</button>
+                      </li>
+                  </ul>
+              </div>
+              <span class="navTrigger">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+              </span>
+          </div>
+      </nav>
+  
+     
+  
+  <!-- Jquery needed -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+  
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+      <script>
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+      </script>
+    <div class="s002" >
+       
+
+
+
+      <form>
+        <fieldset>
+          <legend style=" font-family: 'Archivo Black', sans-serif";>SEARCH COLLEGE</legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <div class="icon-wrap">
+             
+            </div>
+            <input id="search" type="text" placeholder="What are you looking for?" />
+          </div>
+          <div class="input-field fouth-wrap">
+            <div class="icon-wrap">
+              
+            </div>
+            <select data-trigger="" name="choices-single-defaul">
+              <option placeholder="">-Study Level-</option>
+              <option>School</option>
+              <option>Foundation</option>
+              <option>MBA</option>
+              <option>School</option>
+              <option>Foundation</option>
+              
+            </select>
+          </div>
+          
+          <div class="input-field fouth-wrap">
+            <div class="icon-wrap">
+              
+            </div>
+            <select data-trigger="" name="choices-single-defaul">
+              <option placeholder="">Country</option>
+              <option>India</option>
+              <option>Austria</option>
+              <option>Canada</option>
+              <option>Iceland</option>
+              <option>Indonesia</option>
+              <option>Qatar</option>
+            </select>
+          </div>
+          <div class="input-field fifth-wrap">
+            <button class="btn-search" type="button">SEARCH</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+  <section class="cards">
+      <p class="text-center titel">Center aligned text on all viewport sizes.</p>
+    <div class="card-deck ">
+      <div class="product-card card ">
+        <div class="badge">Recommended</div>
+        <div class="product-tumb">
+          <img src="https://i.imgur.com/xdbHo4E.png" alt="">
+        </div>
+        <div class="product-details">
+          <span class="product-catagory">Women,bag</span>
+          <h4><a href="">Women leather bag</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+          <div class="product-bottom-details">
+            <div class="product-price"><img class="flag" src="images/A1-Flags-and-Poles-Flags-USA-USA-Flag-Poly-1A.jpg">  USA</div>
+            <div class="product-links">
+              <a href=""><img class="like" src="images/Untitled-2.png"></a>
+              <a href=""><i class="fa fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card card">
+        <!--<div class="badge">Recommended</div>-->
+        <div class="product-tumb">
+          <img src="https://i.imgur.com/xdbHo4E.png" alt="">
+        </div>
+        <div class="product-details">
+          <span class="product-catagory">Women,bag</span>
+          <h4><a href="">Women leather bag</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+          <div class="product-bottom-details">
+            <div class="product-price"><img class="flag" src="images/download.png">   India</div>
+            <div class="product-links">
+              <a href=""><img class="like" src="images/Untitled-2.png"></a>
+              <a href=""><i class="fa fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card card">
+        <!--<div class="badge">Recommended</div>-->
+        <div class="product-tumb">
+          <img src="https://i.imgur.com/xdbHo4E.png" alt="">
+        </div>
+        <div class="product-details">
+          <span class="product-catagory">Women,bag</span>
+          <h4><a href="">Women leather bag</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+          <div class="product-bottom-details">
+            <div class="product-price"><img class="flag" src="images/A1-Flags-and-Poles-Flags-USA-USA-Flag-Poly-1A.jpg"> USA</div>
+            <div class="product-links">
+              <a href=""><img class="like" src="images/Untitled-2.png"></a>
+              <a href=""><i class="fa fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </section>
+
+    <!-- Card -->
+    <script src="js/extention/choices.js"></script>
+    <script src="js/extention/flatpickr.js"></script>
+    <script>
+      flatpickr(".datepicker",
+      {});
+
+    </script>
+    <script>
+      const choices = new Choices('[data-trigger]',
+      {
+        searchEnabled: false,
+        itemSelectText: '',
+      });
+
+    </script>
+    <script>
+      $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
